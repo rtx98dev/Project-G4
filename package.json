@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@apollo/client": "^4.3.5",
+    "@hookform/resolvers": "^6.0.0",
+    "graphql": "^17.0.2",
+    "react-hook-form": "^7.90.0",
+    "react-router-dom": "^7.18.4",
+    "zod": "^4.6.7"
+  }
+}

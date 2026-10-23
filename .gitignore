@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Frontend build output
+frontend/dist/
+
+# Java build output
+backend/target/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
