@@ -17,6 +17,34 @@
   }
 }
 
+.custom-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px 16px;
+
+  font-size: 16px;
+  color: #333;
+
+  background-color: #f5f5f5;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+/* When the user clicks inside the input */
+.custom-input:focus {
+  border-color: #646cff;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(100, 108, 255, 0.4);
+}
+
+/* Placeholder text */
+.custom-input::placeholder {
+  color: #999;
+}
+
 .hero {
   position: relative;
 
